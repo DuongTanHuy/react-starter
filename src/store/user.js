@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialUsers = Array.from({ length: 3 }).map((_, index) => ({
+const initialUsers = Array.from({ length: 4 }).map((_, index) => ({
   id: Math.random(),
   firstName: "Tri " + index,
   lastName: "Pham",
